@@ -218,16 +218,23 @@ background-repeat:no-repeat;
     cursor: pointer;
     transition-property: box-shadow;
     transform: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: translate(0%);
-
 }
+
+
+
+
 .button:hover {
     background: #404BBF;
-    
+    transform: translate(0%);
 }
+    
+
 .button:focus {
     background: #404BBF;
+    transform: translate(0%);
 }
+    
+
 .feature-icon-container{
     display: flex;
     align-items: center;
