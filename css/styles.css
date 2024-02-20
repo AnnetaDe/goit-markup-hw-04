@@ -210,7 +210,6 @@ nav {
     letter-spacing: 0.04em;
     text-decoration: none;
     cursor: pointer;
-    cursor: pointer;
 }
 .button:hover {
     background: #404BBF;
@@ -335,7 +334,7 @@ nav {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.container-img .overlay{
+.portfolio-card .container-img .overlay{
     background-color: #4D5AE5;
     color: #F4F4FD;
     position: absolute;
@@ -344,7 +343,6 @@ nav {
     width: 100%;
     height: 100%;
     padding: 40px 32px;
-
     display: flex;
     width: 100%;
     height: 100%;
@@ -354,13 +352,17 @@ nav {
     visibility: hidden;
     transform:translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+.portfolio-card .container-img{
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio-card:hover .text-overlay{
     transform:translateY(100%,0);
     visibility: visible;
 
-    /* position: relative; */
     border-radius: 4px 4px 0 0;
 }
 
@@ -385,10 +387,7 @@ nav {
     border: 1px solid #E7E9FC;
     border-top: none;
 }
-.container-img{
-    position: relative;
-    overflow: hidden;
-}
+
 
 .portfolio-card-paragraf{
     display: flex;  
@@ -406,9 +405,6 @@ nav {
     margin-right: 120px;
 }
 
-
-
-
 .footer-text {
     display: block;
     max-width: 264px;
@@ -422,9 +418,6 @@ nav {
     display: inline-block;
     margin-bottom: 16px;
 }
-
-
-
 .social-icons-list{
     display: flex;
     justify-content: center;
@@ -432,9 +425,7 @@ nav {
     width: 100%;
     margin: 0 auto;
     padding:0 30px;
-
 }
-
 .footer .container{
     align-items: baseline;
     display: flex;
