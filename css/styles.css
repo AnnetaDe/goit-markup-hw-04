@@ -435,7 +435,7 @@ background-repeat:no-repeat;
     padding:0 30px;
 }
 .footer .container{
-    align-items: baseline;
+    align-items:first baseline
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -443,9 +443,10 @@ background-repeat:no-repeat;
 }
 
 footer .social-icons-list{
-    display: inline-flex;
+    display: flex;
     margin: 0 auto;
     padding: 0 30px;
+    margin-bottom: 16px;
 }
 .icon-s-item{
     width: 40px;
@@ -455,7 +456,7 @@ footer .social-icons-list{
 
 .socials-link{
     /* border: 1px solid; */
-    border-radius: 45%;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
