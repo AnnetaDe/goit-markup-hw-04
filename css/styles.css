@@ -435,7 +435,7 @@ background-repeat:no-repeat;
     padding:0 30px;
 }
 .footer .container{
-    align-items:first baseline;
+    align-items:firstbaseline;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -476,8 +476,8 @@ footer .social-icons-list{
     background-color: #404bbf;
 }
 
-.icon-social{
-    fill:f4f4fd;
+footer .icon-social{
+    fill:none;
 }
 
 .footer .socials-link:focus, .footer .socials-link:hover{
