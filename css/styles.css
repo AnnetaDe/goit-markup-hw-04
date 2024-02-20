@@ -398,6 +398,12 @@ nav {
     border-top-width: 1px;
     background-color: #2E2F42;
 }
+.footer-left{
+    margin-right: 120px;
+}
+
+
+
 
 .footer-text {
     display: block;
@@ -412,6 +418,8 @@ nav {
     display: inline-block;
     margin-bottom: 16px;
 }
+
+
 
 .social-icons-list{
     display: flex;
@@ -428,9 +436,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 120px;
 
 }
+
 footer .social-icons-list{
     display: inline-flex;
     margin: 0 auto;
