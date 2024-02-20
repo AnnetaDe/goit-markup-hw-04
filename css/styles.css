@@ -435,7 +435,7 @@ background-repeat:no-repeat;
     padding:0 30px;
 }
 .footer .container{
-    align-items:first baseline
+    align-items:first baseline;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -447,6 +447,7 @@ footer .social-icons-list{
     margin: 0 auto;
     padding: 0 30px;
     margin-bottom: 16px;
+    gap:16px;
 }
 .icon-s-item{
     width: 40px;
@@ -477,6 +478,10 @@ footer .social-icons-list{
 
 .icon-social{
     fill:f4f4fd;
+}
+
+.footer .socials-link:focus, .footer .socials-link:hover{
+    background-color: #31d0aa;
 }
 
 .social-text-footer{
