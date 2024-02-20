@@ -188,7 +188,7 @@ background-repeat:no-repeat;
     padding: 188px 40px;
    
 }
-.button {
+button {
     display:block;
     min-width: 169px;
     height: 56px;
@@ -204,15 +204,14 @@ background-repeat:no-repeat;
     letter-spacing: 0.04em;
     text-decoration: none;
     cursor: pointer;
-    
-}
-
-.hero .button{
     transition-property:background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
-}    
+}
+button:hover {
+    background-color: #404BBF;
+}
 
 .hero .button:hover {
     background-color:#404BBF;
