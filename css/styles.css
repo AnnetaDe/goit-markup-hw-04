@@ -189,6 +189,12 @@ background-repeat:no-repeat;
    
 }
 .button {
+
+
+
+
+
+
     display:block;
     min-width: 169px;
     height: 56px;
@@ -202,7 +208,7 @@ background-repeat:no-repeat;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.64px;
     text-decoration: none;
     cursor: pointer;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
