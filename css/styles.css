@@ -6,7 +6,7 @@
 } */
 
 
-body {
+body{
     background: #FFFFFF;
     color: #434455;
     font-weight: 400;
@@ -15,7 +15,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }   
-h1, h2, h3,p {
+h1, h2, h3,p{
     margin: 0;
     padding: 0;
 }
@@ -27,8 +27,7 @@ ul{
     font-size: 16px;
     line-height: 1.5; 
 } 
-
- .visually-hidden {
+ .visually-hidden{
             position: absolute;
             overflow: hidden;
             clip: rect(0 0 0 0);
@@ -39,19 +38,19 @@ ul{
             border: 0;
             white-space: nowrap;
             clip-path: inset(100%);
-        }
+}
         
-.container {
+.container{
     max-width: 1158px;
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
 }
-img {
+img{
     display: block;
     max-width: 100%;
 }
-.header .container {
+.header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,34 +59,29 @@ header{
     border-bottom: #e7e9fc 1px solid;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.link {
+.link{
     font-style: normal;
     text-decoration: none;
 }
-
-.link:hover {
-    text-decoration: none;
-}
-
 .navigation .logo {
     display: inline-block;
     margin-right: 76px;
 
 }
-.logostudio {
+.logostudio{
     color: #F4F4FD;
 }
-.header .logostudio {
+.header .logostudio{
     color: #2E2F42;
 }
 
-.logo {
+.logo{
      /* margin-bottom: 18px; */
      
     color: #4d5ae5;
@@ -129,22 +123,19 @@ nav {
     border-radius: 2px;
     background: #404BBF;
 }
-.navigation-list-item{
-    padding-bottom: 24px;
-    padding-top: 24px;
-    position: relative;
 
-}
-.contact-list .link {
+
+.contact-list .link{
     display: block;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-list .link {
-    display: block;
+.navigation-list .link{
+    padding-bottom: 24px;
+    position: relative;
 
-   
+    display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
@@ -415,6 +406,7 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    font-weight: 500;
 }
 .footer-logo{
     display: flex;
