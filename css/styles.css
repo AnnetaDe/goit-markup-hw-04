@@ -196,11 +196,10 @@ nav{
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
+    padding: 188px 0;
 }
-.hero .wrapper {
-    padding: 188px 40px;
-   
-}
+
+
 .button-hero{
     display:block;
     min-width: 169px;
